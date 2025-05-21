@@ -334,10 +334,10 @@ export default function Home() {
                   price="$2.5/tester or $5/hour"
                   description="We will provide testers at $2.5/tester for 14 days or $5/tester per hour with Think-aloud video commentary"
                   features={[
-                    "Custom expert testers available",
-                    "14-Day Turnaround and Hourly base available",
+                    "Custom Expert Testers Available",
+                    "14-Day Turnaround & Hourly Base Available",
                     "Available For Both Android & Ios",
-                    "Think aloud video commentary for hourly base",
+                    "Think Aloud Video Commentary For Hourly Base",
                     "Chat Support",
                   ]}
                   buttonText="Get Started"
@@ -347,7 +347,7 @@ export default function Home() {
               <GlassTile gradient="purple-bright">
                 <PricingCard
                   title="Standard"
-                  price="$20"
+                  price="$25"
                   description="Comprehensive testing for most apps"
                   features={[
                     "12 Expert Beta Testers",

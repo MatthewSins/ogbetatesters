@@ -330,15 +330,15 @@ export default function Home() {
             <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 lg:gap-6">
               <GlassTile gradient="purple-dark">
                 <PricingCard
-                  title="Basic"
-                  price="$8"
-                  description="Essential testing for simple apps"
+                  title="Custom"
+                  price="$2.5/tester or $5/hour"
+                  description="We will provide testers at $2.5/tester for 14 days or $5/tester per hour with Think-aloud video commentary"
                   features={[
-                    "8 Expert Beta Testers",
-                    "14-Day Turnaround",
+                    "Custom expert testers available",
+                    "14-Day Turnaround and Hourly base available",
                     "Bug Reports",
-                    "Basic Usability Feedback",
-                    "Email Support",
+                    "Think aloud video commentary for hourly base",
+                    "Chat Support",
                   ]}
                   buttonText="Get Started"
                   popular={false}

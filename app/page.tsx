@@ -328,6 +328,8 @@ export default function Home() {
               </div>
             </div>
             <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 lg:gap-6">
+              
+              {/* Custom Plan */}
               <GlassTile gradient="purple-dark">
                 <PricingCard
                   title="Custom"
@@ -344,6 +346,9 @@ export default function Home() {
                   popular={false}
                 />
               </GlassTile>
+
+            {/* Standard Plan with Highlight */}
+            <div className="border-4 border-purple-500 rounded-2xl shadow-lg">
               <GlassTile gradient="purple-bright">
                 <PricingCard
                   title="Standard"
@@ -361,6 +366,9 @@ export default function Home() {
                   popular={true}
                 />
               </GlassTile>
+            </div>
+
+              {/* Premium Plan with Recommended Badge */}
               <GlassTile gradient="blue-dark">
                 <PricingCard
                   title="Premium"
@@ -378,8 +386,11 @@ export default function Home() {
                   ]}
                   buttonText="Get Started"
                   popular={false}
+                  badgeText="Recommended"
                 />
               </GlassTile>
+
+              {/* Enterprise Plan */}
               <GlassTile gradient="rainbow">
                 <PricingCard
                   title="Enterprise"
@@ -400,9 +411,11 @@ export default function Home() {
                   popular={false}
                 />
               </GlassTile>
+
             </div>
           </div>
         </section>
+
 
         {/* CTA Section */}
         <section id="contact" className="content-section py-16 relative">

@@ -184,7 +184,7 @@ export default function Home() {
                     <h3 className="text-xl font-bold text-white">Expert Testers</h3>
                   </div>
                   <p className="text-zinc-300">
-                    Our team of 12 experienced Google Android beta testers will thoroughly test your app.
+                    Our team of 30 experienced Google Android beta testers will thoroughly test your app.
                   </p>
                 </div>
               </GlassTile>
@@ -334,7 +334,7 @@ export default function Home() {
                 <PricingCard
                   title="Custom"
                   price="$3/tester or $5/hour"
-                  description="We will provide testers at $2.5/tester for 14 days or $5/tester per hour with Think-aloud video commentary"
+                  description="We will provide testers at $3/tester for 14 days or $5/tester per hour with Think-aloud video commentary"
                   features={[
                     "Custom Expert Testers Available",
                     "14-Day Turnaround & Hourly Base Available",
@@ -348,7 +348,7 @@ export default function Home() {
               </GlassTile>
 
             {/* Standard Plan with Highlight */}
-            <div className="border-4 border-purple-500 rounded-2x2 shadow-lg">
+            <div className="border-4 border-purple-500 rounded-2x1 shadow-lg">
               <GlassTile gradient="purple-bright">
                 <PricingCard
                   title="Standard"

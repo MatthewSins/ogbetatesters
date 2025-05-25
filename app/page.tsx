@@ -333,12 +333,12 @@ export default function Home() {
               <GlassTile gradient="purple-dark">
                 <PricingCard
                   title="Custom"
-                  price="$3/tester or $5/hour"
+                  price="$2.5/tester or $5/hour"
                   description="We will provide testers at $2.5/tester for 14 days or $5/tester per hour with Think-aloud video commentary"
                   features={[
-                    "Custom Expert Testers Available For Both Android & Ios",
+                    "Custom Expert Testers Available",
                     "14-Day Turnaround & Hourly Base Available",
-                    "In-depth Test With Video Bug Reporting",
+                    "Available For Both Android & Ios",
                     "Think Aloud Video Commentary For Hourly Base",
                     "Chat Support",
                   ]}
@@ -372,10 +372,10 @@ export default function Home() {
               <GlassTile gradient="blue-dark">
                 <PricingCard
                   title="Premium"
-                  price="$60"
+                  price="$30"
                   description="Advanced testing for complex apps"
                   features={[
-                    "20 Expert Beta Testers",
+                    "15 Expert Beta Testers",
                     "14-Day Turnaround",
                     "Detailed Bug Reports",
                     "In-depth Usability Analysis",
@@ -394,7 +394,7 @@ export default function Home() {
               <GlassTile gradient="rainbow">
                 <PricingCard
                   title="Enterprise"
-                  price="$80"
+                  price="$75"
                   description="Maximum coverage for enterprise apps"
                   features={[
                     "30 Expert Beta Testers",
@@ -449,6 +449,14 @@ export default function Home() {
                     <CheckCircle className="h-5 w-5 text-primary" />
                     <span>Usability & Performance Analysis</span>
                   </div>
+                </div>
+                <div className="flex items-center gap-2 mt-6 text-zinc-300">
+                  <Mail className="h-5 w-5 text-primary" />
+                  <a href="mailto:ogbetatesters@proton.me" className="hover:text-primary transition-colors">
+                    ogbetatesters@proton.me
+                  </a>
+                </div>
+              </div>
               <GlassTile gradient="purple-dark">
                 <ContactForm />
               </GlassTile>
@@ -478,6 +486,10 @@ export default function Home() {
               <Link href="#contact" className="hover:text-white transition-colors">
                 Contact
               </Link>
+              <a
+                href="mailto:ogbetatesters@proton.me"
+                className="hover:text-white transition-colors flex items-center gap-1"
+              >
                 <Mail className="h-3.5 w-3.5" />
                 ogbetatesters@proton.me
               </a>

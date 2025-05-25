@@ -333,7 +333,7 @@ export default function Home() {
               <GlassTile gradient="purple-dark">
                 <PricingCard
                   title="Custom"
-                  price="$2.5/tester or $5/hour"
+                  price="$3/tester or $5/hour"
                   description="We will provide testers at $2.5/tester for 14 days or $5/tester per hour with Think-aloud video commentary"
                   features={[
                     "Custom Expert Testers Available",
@@ -348,7 +348,7 @@ export default function Home() {
               </GlassTile>
 
             {/* Standard Plan with Highlight */}
-            <div className="border-4 border-purple-500 rounded-2xl shadow-lg">
+            <div className="border-4 border-purple-500 rounded-2x2 shadow-lg">
               <GlassTile gradient="purple-bright">
                 <PricingCard
                   title="Standard"
@@ -372,10 +372,10 @@ export default function Home() {
               <GlassTile gradient="blue-dark">
                 <PricingCard
                   title="Premium"
-                  price="$30"
+                  price="$60"
                   description="Advanced testing for complex apps"
                   features={[
-                    "15 Expert Beta Testers",
+                    "20 Expert Beta Testers",
                     "14-Day Turnaround",
                     "Detailed Bug Reports",
                     "In-depth Usability Analysis",
@@ -394,7 +394,7 @@ export default function Home() {
               <GlassTile gradient="rainbow">
                 <PricingCard
                   title="Enterprise"
-                  price="$75"
+                  price="$80"
                   description="Maximum coverage for enterprise apps"
                   features={[
                     "30 Expert Beta Testers",
